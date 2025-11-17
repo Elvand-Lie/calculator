@@ -1,0 +1,25 @@
+.button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button.operator {
+  background-color: #f9a825;
+}
+
+.button.operator:hover {
+  background-color: #fbc02d;
+}
+
+.button.zero {
+  grid-column: 1 / 3;
+}
